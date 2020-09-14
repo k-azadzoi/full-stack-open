@@ -1,16 +1,16 @@
 import React from 'react'
 
-const Part = ({ part1, part2, part3, exercises1, exercises2, exercises3 }) => {
+const Part = ({ name, name2, name3, ex, ex2, ex3 }) => {
     return (
         <>
             <p>
-                {part1} {exercises1}
+                {name} {ex}
             </p>
             <p>
-                {part2} {exercises2}
+                {name2} {ex2}
             </p>
             <p>
-                {part3} {exercises3}
+                {name3} {ex3}
             </p>   
         </>
     )
